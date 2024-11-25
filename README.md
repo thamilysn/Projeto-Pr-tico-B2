@@ -1,4 +1,4 @@
-# Projeto Prático do B2
+## Projeto Prático do B2
 
 Estrutura criada por Thamily Silva Nogueira. 
 
