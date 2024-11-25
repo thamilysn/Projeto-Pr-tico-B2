@@ -46,7 +46,7 @@ Portanto, precisamos de uma solução que solucione os problemas citados acima. 
 2. Gerar números aleatórios dentro do intervalo de 1 a 60.
 3. Garantir que os números escolhidos sejam únicos diretamente no momento de escolha.
    
-Portanto, o código para projetar essas necessidades foi: 
+Portanto, o a solução proposta para projetar essas necessidades é a seguinte: 
 ```
 function gerarNumerosMegaSena(qtdNumeros) {
     if (qtdNumeros > 60 || qtdNumeros < 1) {
