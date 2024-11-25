@@ -96,8 +96,8 @@ O código, nos testes, se mostra muito eficiente em comparação com o primeiro 
 
 Após executar os dois códigos 20 vezes utilizando console.time e console.timeEnd e tirando uma média, os resultados médios foram:
 
-Tempo médio de execução do gerarAleatorios: 6.52 µs
-Tempo médio de execução do gerarNumerosMegaSena: 5.75 µs
-Otimização percentual: 11.88%
+- Tempo médio de execução do gerarAleatorios: 6.52 µs
+- Tempo médio de execução do gerarNumerosMegaSena: 5.75 µs
+- Otimização percentual: 11.88%
 
 Esses dados confirmam que a função criada é cerca de 11.88% mais eficiente que a função original em termos de tempo de execução. Embora eu reconheça que usar sets e arrays possa otimizar muito mais os recursos computacionais gastos neste gerador de números aleatórios, o professor não chegou a aplicar o resultado utilizando destes recursos do javascipt, então o desafio estava em aplicar isso de formas alternativas, e o resultado mais eficiente que encontrei foi este.
