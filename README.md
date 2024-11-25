@@ -31,6 +31,8 @@ function main(quantidade){
 }
 
 ```
+
+
 **Solução Proposta**
 
 O primeiro código consome muitos recursos computacionais porque gera números aleatórios sem se preocupar previamente em garantir que estes fossem únicos. Isto causa muitas repetições inúteis, devido ao fato de que números que já foram gerados terem que ser descartados e novos números precisarem ser gerados até preencher a quantidade desejada. Pode não parecer, mas isso abre um problema na questão da eficiência, especialmente porque:
@@ -77,7 +79,8 @@ gerarNumerosMegaSena(6);
 console.timeEnd("Tempo da Mega-Sena");
 ```
 
-#O quão eficiente é este código?
+
+**O quão eficiente é este código?**
 
 O código, nos testes, se mostra muito eficiente em comparação com o primeiro exemplo. O número do contador do console.time pode variar de navegador para navegador, mas eu utilizo o Microsoft Edge e os resultados se mostraram satisfatórios. O código otimizado resolve os problemas propostos pois:
 
