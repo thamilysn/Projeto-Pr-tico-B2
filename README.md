@@ -31,7 +31,7 @@ function main(quantidade){
 }
 
 ```
-#Solução Proposta 
+**Solução Proposta**
 
 O primeiro código consome muitos recursos computacionais porque gera números aleatórios sem se preocupar previamente em garantir que estes fossem únicos. Isto causa muitas repetições inúteis, devido ao fato de que números que já foram gerados terem que ser descartados e novos números precisarem ser gerados até preencher a quantidade desejada. Pode não parecer, mas isso abre um problema na questão da eficiência, especialmente porque:
 
